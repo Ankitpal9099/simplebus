@@ -85,6 +85,25 @@
   background: linear-gradient(90deg, var(--danger), #dc2626);
 }
 
+.full-indicator {
+  background: linear-gradient(90deg, #dc2626, #b91c1c);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  box-shadow: 0 6px 18px rgba(220, 38, 38, 0.2);
+  text-align: center;
+}
+
+.bus-card p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+  color: #0f172a;
+}
+
 @media (max-width: 420px) {
   .bus-card {
     padding: 14px;

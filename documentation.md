@@ -12,17 +12,24 @@ Users can access the web app and search for buses by bus number or route. The ap
 - Yellow: Medium crowd (moderate)
 - Red: High crowd (very crowded, consider waiting)
 
+Each bus card now shows detailed information including:
+- Number of empty seats available
+- Standing space availability
+- Rush hour crowd levels
+- Indicator if the bus is full
+
 The search functionality allows quick filtering to find specific buses.
 
 ## How Uncertainty Is Reduced
 
-The app provides clear, visual feedback on bus crowd levels, eliminating guesswork. Users can make informed decisions about which bus to take or whether to wait for a less crowded one, reducing the stress of boarding overcrowded buses and improving overall travel experience.
+The app provides clear, visual feedback on bus crowd levels, eliminating guesswork. Users can make informed decisions about which bus to take or whether to wait for a less crowded one, reducing the stress of boarding overcrowded buses and improving overall travel experience. Detailed seat and standing information helps users plan their journey better, especially during rush hours.
 
 ## What New Idea You Added
 
 - Simulated real-time crowd data with dynamic updates (in a real app, this would connect to bus sensors or crowd monitoring systems)
 - Intuitive color-coded crowd indicators for quick understanding
 - Search functionality to find buses by number or route, making it user-friendly for different scenarios
+- Detailed crowd metrics: empty seats, standing space, rush hour indicators, and full bus alerts
 
 ## Tech and Tools Used While Coding
 

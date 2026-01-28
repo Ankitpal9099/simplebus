@@ -9,6 +9,8 @@
 - [x] Style the app with proper CSS and alignment
 - [x] Build the app for production
 - [x] Create documentation
+- [x] Add detailed crowd information (empty seats, standing space, full bus indicator, rush hour levels)
+- [x] Add live location tracking and distance display
 
 ## Remaining Tasks
 
@@ -23,3 +25,4 @@
 - Color-coded crowd levels (Green: Low, Yellow: Medium, Red: High)
 - Responsive design
 - Mock data for 10 buses with different routes
+- Detailed crowd info: empty seats, standing space availability, full bus indicator

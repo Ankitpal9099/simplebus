@@ -51,6 +51,22 @@
   border-color: var(--accent);
 }
 
+.location-btn {
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: none;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.location-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.2);
+}
+
 .bus-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
